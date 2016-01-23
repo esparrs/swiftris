@@ -26,6 +26,7 @@
 		B376871E1C5404B000CE8977 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B37687181C5404B000CE8977 /* gameboard@2x.png */; };
 		B376871F1C5404B000CE8977 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = B37687191C5404B000CE8977 /* whitebg.png */; };
 		B37687201C5404B000CE8977 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B376871A1C5404B000CE8977 /* whitebg@2x.png */; };
+		B37687221C540EAD00CE8977 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687211C540EAD00CE8977 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B37687181C5404B000CE8977 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
 		B37687191C5404B000CE8977 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		B376871A1C5404B000CE8977 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		B37687211C540EAD00CE8977 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B37686E31C54005100CE8977 /* AppDelegate.swift */,
 				B37686E71C54005100CE8977 /* GameScene.swift */,
 				B37686E91C54005100CE8977 /* GameViewController.swift */,
+				B37687211C540EAD00CE8977 /* Array2D.swift */,
 				B37686EB1C54005100CE8977 /* Main.storyboard */,
 				B37686EE1C54005100CE8977 /* Assets.xcassets */,
 				B37686F01C54005100CE8977 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37686E81C54005100CE8977 /* GameScene.swift in Sources */,
+				B37687221C540EAD00CE8977 /* Array2D.swift in Sources */,
 				B37686EA1C54005100CE8977 /* GameViewController.swift in Sources */,
 				B37686E41C54005100CE8977 /* AppDelegate.swift in Sources */,
 			);
