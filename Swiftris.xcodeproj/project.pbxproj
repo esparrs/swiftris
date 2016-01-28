@@ -27,6 +27,16 @@
 		B376871F1C5404B000CE8977 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = B37687191C5404B000CE8977 /* whitebg.png */; };
 		B37687201C5404B000CE8977 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B376871A1C5404B000CE8977 /* whitebg@2x.png */; };
 		B37687221C540EAD00CE8977 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687211C540EAD00CE8977 /* Array2D.swift */; };
+		B37687241C559B7A00CE8977 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687231C559B7A00CE8977 /* Block.swift */; };
+		B37687261C55A3D100CE8977 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687251C55A3D100CE8977 /* Shape.swift */; };
+		B37687281C55AD5E00CE8977 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687271C55AD5E00CE8977 /* SquareShape.swift */; };
+		B376872A1C580BC800CE8977 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687291C580BC800CE8977 /* TShape.swift */; };
+		B376872C1C584CF900CE8977 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376872B1C584CF900CE8977 /* LineShape.swift */; };
+		B376872E1C584F2A00CE8977 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376872D1C584F2A00CE8977 /* LShape.swift */; };
+		B37687301C584F4900CE8977 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376872F1C584F4900CE8977 /* JShape.swift */; };
+		B37687321C584F6400CE8977 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687311C584F6400CE8977 /* SShape.swift */; };
+		B37687341C584F8000CE8977 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687331C584F8000CE8977 /* ZShape.swift */; };
+		B37687361C586E5400CE8977 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37687351C586E5400CE8977 /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,16 @@
 		B37687191C5404B000CE8977 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		B376871A1C5404B000CE8977 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		B37687211C540EAD00CE8977 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		B37687231C559B7A00CE8977 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		B37687251C55A3D100CE8977 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		B37687271C55AD5E00CE8977 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		B37687291C580BC800CE8977 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		B376872B1C584CF900CE8977 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		B376872D1C584F2A00CE8977 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		B376872F1C584F4900CE8977 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		B37687311C584F6400CE8977 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		B37687331C584F8000CE8977 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		B37687351C586E5400CE8977 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,16 @@
 			children = (
 				B37686E31C54005100CE8977 /* AppDelegate.swift */,
 				B37686E71C54005100CE8977 /* GameScene.swift */,
+				B37687231C559B7A00CE8977 /* Block.swift */,
+				B37687251C55A3D100CE8977 /* Shape.swift */,
+				B37687351C586E5400CE8977 /* Swiftris.swift */,
+				B37687271C55AD5E00CE8977 /* SquareShape.swift */,
+				B37687291C580BC800CE8977 /* TShape.swift */,
+				B376872B1C584CF900CE8977 /* LineShape.swift */,
+				B376872D1C584F2A00CE8977 /* LShape.swift */,
+				B376872F1C584F4900CE8977 /* JShape.swift */,
+				B37687311C584F6400CE8977 /* SShape.swift */,
+				B37687331C584F8000CE8977 /* ZShape.swift */,
 				B37686E91C54005100CE8977 /* GameViewController.swift */,
 				B37687211C540EAD00CE8977 /* Array2D.swift */,
 				B37686EB1C54005100CE8977 /* Main.storyboard */,
@@ -267,9 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B376872E1C584F2A00CE8977 /* LShape.swift in Sources */,
+				B37687281C55AD5E00CE8977 /* SquareShape.swift in Sources */,
 				B37686E81C54005100CE8977 /* GameScene.swift in Sources */,
+				B37687301C584F4900CE8977 /* JShape.swift in Sources */,
+				B37687361C586E5400CE8977 /* Swiftris.swift in Sources */,
+				B37687261C55A3D100CE8977 /* Shape.swift in Sources */,
 				B37687221C540EAD00CE8977 /* Array2D.swift in Sources */,
+				B376872C1C584CF900CE8977 /* LineShape.swift in Sources */,
+				B37687321C584F6400CE8977 /* SShape.swift in Sources */,
+				B376872A1C580BC800CE8977 /* TShape.swift in Sources */,
+				B37687241C559B7A00CE8977 /* Block.swift in Sources */,
 				B37686EA1C54005100CE8977 /* GameViewController.swift in Sources */,
+				B37687341C584F8000CE8977 /* ZShape.swift in Sources */,
 				B37686E41C54005100CE8977 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
